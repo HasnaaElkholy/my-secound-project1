@@ -15,7 +15,10 @@ jobs:
     steps:
       
   
-      - name: 'Printing folder conntents'
+      - name: 'BEROR'
+        run: ls
+      - uses: actions/checkout@v3
+      - name: 'AFTER'
         run: ls
 
       
