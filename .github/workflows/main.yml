@@ -13,14 +13,11 @@ jobs:
     
 
     steps:
-      
-  
-      - name: 'BEROR'
-        run: ls
       - uses: actions/checkout@v3
-      - name: 'AFTER'
-        run: ls
+      - name: "Login to Docker Hub"
+        run: docker login --username hasnaaelkholy --password dckr_pat_aW4ClMIBw8fqpfTWjrdCU2Ctbvc
 
+      
       
 
        
